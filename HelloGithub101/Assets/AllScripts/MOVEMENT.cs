@@ -5,12 +5,12 @@ using UnityEngine;
 public class MOVEMENT : MonoBehaviour
 {
     public Rigidbody rb;
-    public float frontforce = 2000f;
-    public float sideforce = 500f;
+    public float frontforce = 2000f;    //float variable to move the player object forward
+    public float sideforce = 500f;      //float variable to move the player object sideways
     // Start is called before the first frame update
     void Start()
     {
-        
+        //start function
     }
 
     // Update is called once per frame
